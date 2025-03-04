@@ -123,4 +123,17 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #ff5733 !important; /* Change arrow color */
+    width: 30px !important; /* Adjust width */
+    height: 30px !important; /* Adjust height */
+  }
+
+  /* Optional: Customize the icon inside */
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 20px !important; /* Adjust arrow icon size */
+  }
 }
